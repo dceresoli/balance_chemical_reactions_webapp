@@ -3,7 +3,6 @@
 import streamlit as st
 import math
 import numpy as np
-import matplotlib.pyplot as plt
 
 from balance_chemical_reaction import balance_chemical_reaction
 
@@ -16,6 +15,7 @@ col1, col2 = st.columns([0.3,0.7])
 with col1: 
     st.markdown('This webapp was code by the students of the **Programming for chemistry** course, academic year 2025/2026, at Università degli studi di Milano')
     st.image('logo_small.png') 
+    st.markdown('The code is available at this [repository](https://github.com/dceresoli/balance_chemical_reactions_webapp)')
 
 with col2:
     st.write('**Sample chemical reactions:**')
